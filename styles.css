@@ -3,7 +3,6 @@ html {
 	min-height: 100%;
 	width: 100%;
 }
-
 body {
 	margin: 0px;
 	min-height: 100%;
@@ -17,14 +16,12 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 h1 {
 	font-size: 6.5rem;
 	color: #dbedf3;
 	font-family: "Gochi Hand", cursive;
 	text-shadow: 4px 0 #e47d68;
 }
-
 footer {
 	color: #dbedf3;
 	font-family: "Delius Unicase", cursive;

@@ -52,7 +52,6 @@ function playInstrument(button) {
 			break;
 	}
 }
-
 function setAnimation(key) {
 	const activeButton = document.querySelector(`.${key}`);
 	activeButton.classList.add("zoom");
@@ -61,6 +60,7 @@ function setAnimation(key) {
 	}, 800);
 }
 
+// Keydown
 document.addEventListener("keydown", function (e) {
 	playInstrument(e.key);
 });
